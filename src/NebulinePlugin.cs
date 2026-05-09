@@ -3,12 +3,13 @@ using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Unity.IL2CPP;
 using HarmonyLib;
+using MiraAPI;
 using MiraAPI.PluginLoading;
 using Reactor;
 using Reactor.Networking;
 using Reactor.Networking.Attributes;
 
-namespace MiraAPI.Example;
+namespace Nebuline;
 
 [BepInAutoPlugin("lol.eps.nebuline", "Nebuline")]
 [BepInProcess("Among Us.exe")]

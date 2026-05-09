@@ -2,7 +2,7 @@
 using MiraAPI.Utilities.Assets;
 using UnityEngine;
 
-namespace MiraAPI.Example.Buttons;
+namespace Nebuline.Buttons;
 
 public class ThinkButton : CustomActionButton
 {

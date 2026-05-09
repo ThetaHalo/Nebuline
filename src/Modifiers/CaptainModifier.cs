@@ -1,11 +1,11 @@
-﻿using MiraAPI.Example.Options.Modifiers;
+﻿using Nebuline.Options.Modifiers;
 using MiraAPI.GameOptions;
 using MiraAPI.Modifiers;
 using MiraAPI.Modifiers.Types;
 using MiraAPI.Utilities.Assets;
 using UnityEngine;
 
-namespace MiraAPI.Example.Modifiers;
+namespace Nebuline.Modifiers;
 
 public class CaptainModifier : GameModifier
 {

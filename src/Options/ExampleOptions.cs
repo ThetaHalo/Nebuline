@@ -3,7 +3,7 @@ using MiraAPI.GameOptions.Attributes;
 using MiraAPI.Utilities;
 using UnityEngine;
 
-namespace MiraAPI.Example.Options;
+namespace Nebuline.Options;
 
 public class ExampleOptions : AbstractOptionGroup
 {

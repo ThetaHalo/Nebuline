@@ -1,10 +1,10 @@
 ﻿using Il2CppInterop.Runtime.Attributes;
-using MiraAPI.Example.GameOver;
+using Nebuline.GameOver;
 using MiraAPI.GameEnd;
 using MiraAPI.Roles;
 using UnityEngine;
 
-namespace MiraAPI.Example.Roles;
+namespace Nebuline.Roles;
 
 public class NeutralKillerRole : ImpostorRole, ICustomRole
 {

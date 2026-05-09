@@ -1,7 +1,7 @@
 ﻿using MiraAPI.Keybinds;
 using Rewired;
 
-namespace MiraAPI.Example;
+namespace Nebuline;
 
 [RegisterCustomKeybinds]
 public static class ExampleKeybinds

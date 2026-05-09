@@ -1,9 +1,9 @@
 ﻿using Il2CppSystem;
-using MiraAPI.Example.Roles;
+using Nebuline.Roles;
 using MiraAPI.Modifiers.Types;
 using UnityEngine;
 
-namespace MiraAPI.Example.Modifiers.Freezer;
+namespace Nebuline.Modifiers.Freezer;
 
 public class FreezeModifier : TimedModifier
 {

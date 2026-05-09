@@ -1,12 +1,12 @@
-﻿using MiraAPI.Example.GameOver;
-using MiraAPI.Example.Roles;
+﻿using Nebuline.GameOver;
+using Nebuline.Roles;
 using MiraAPI.GameEnd;
 using MiraAPI.Hud;
 using MiraAPI.Keybinds;
 using MiraAPI.Utilities.Assets;
 using UnityEngine;
 
-namespace MiraAPI.Example.Buttons;
+namespace Nebuline.Buttons;
 
 public class NeutralKillerButton : CustomActionButton
 {

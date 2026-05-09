@@ -5,7 +5,7 @@ using Reactor.Utilities;
 using TMPro;
 using UnityEngine;
 
-namespace MiraAPI.Example.Roles;
+namespace Nebuline.Roles;
 
 public class ChameloenRole : CrewmateRole, ICustomRole
 {

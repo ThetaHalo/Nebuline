@@ -1,8 +1,8 @@
-﻿using MiraAPI.Example.Modifiers.Freezer;
+﻿using Nebuline.Modifiers.Freezer;
 using MiraAPI.GameOptions;
 using MiraAPI.GameOptions.Attributes;
 
-namespace MiraAPI.Example.Options.Modifiers;
+namespace Nebuline.Options.Modifiers;
 
 public class FreezeModifierSettings : AbstractOptionGroup<FreezeModifier>
 {

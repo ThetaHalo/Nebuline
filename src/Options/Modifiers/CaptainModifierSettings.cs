@@ -1,8 +1,8 @@
-﻿using MiraAPI.Example.Modifiers;
+﻿using Nebuline.Modifiers;
 using MiraAPI.GameOptions;
 using MiraAPI.GameOptions.Attributes;
 
-namespace MiraAPI.Example.Options.Modifiers;
+namespace Nebuline.Options.Modifiers;
 
 public class CaptainModifierSettings : AbstractOptionGroup<CaptainModifier>
 {

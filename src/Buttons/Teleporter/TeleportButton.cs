@@ -1,6 +1,6 @@
 ﻿using System.Collections;
-using MiraAPI.Example.Options.Roles;
-using MiraAPI.Example.Roles;
+using Nebuline.Options.Roles;
+using Nebuline.Roles;
 using MiraAPI.GameOptions;
 using MiraAPI.Hud;
 using MiraAPI.Keybinds;
@@ -8,7 +8,7 @@ using MiraAPI.Utilities.Assets;
 using Reactor.Utilities;
 using UnityEngine;
 
-namespace MiraAPI.Example.Buttons.Teleporter;
+namespace Nebuline.Buttons.Teleporter;
 
 public class TeleportButton : CustomActionButton
 {

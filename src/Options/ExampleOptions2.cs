@@ -2,7 +2,7 @@
 using MiraAPI.GameOptions.OptionTypes;
 using Reactor.Utilities;
 
-namespace MiraAPI.Example.Options;
+namespace Nebuline.Options;
 
 public class ExampleOptions2 : AbstractOptionGroup
 {

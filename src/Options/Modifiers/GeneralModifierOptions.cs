@@ -1,7 +1,7 @@
 ﻿using MiraAPI.GameOptions;
 using MiraAPI.GameOptions.Attributes;
 
-namespace MiraAPI.Example.Options.Modifiers;
+namespace Nebuline.Options.Modifiers;
 
 public class GeneralModifierOptions : AbstractOptionGroup
 {

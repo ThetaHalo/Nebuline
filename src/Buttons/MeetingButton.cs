@@ -1,11 +1,11 @@
-﻿using MiraAPI.Example.Modifiers;
+﻿using Nebuline.Modifiers;
 using MiraAPI.Hud;
 using MiraAPI.Keybinds;
 using MiraAPI.Modifiers;
 using MiraAPI.Utilities.Assets;
 using UnityEngine;
 
-namespace MiraAPI.Example.Buttons;
+namespace Nebuline.Buttons;
 
 public class MeetingButton : CustomActionButton
 {

@@ -1,7 +1,7 @@
 ﻿using MiraAPI.Colors;
 using UnityEngine;
 
-namespace MiraAPI.Example;
+namespace Nebuline;
 
 [RegisterCustomColors]
 public static class ExampleColors

@@ -1,10 +1,11 @@
 ﻿using BepInEx.Configuration;
+using MiraAPI;
 using MiraAPI.LocalSettings;
 using MiraAPI.LocalSettings.Attributes;
 using MiraAPI.Utilities;
 using UnityEngine;
 
-namespace MiraAPI.Example;
+namespace Nebuline;
 
 public class ExampleLocalSettings(ConfigFile config) : LocalSettingsTab(config)
 {

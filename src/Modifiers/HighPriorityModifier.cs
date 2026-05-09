@@ -1,6 +1,6 @@
 ﻿using MiraAPI.Modifiers.Types;
 
-namespace MiraAPI.Example.Modifiers;
+namespace Nebuline.Modifiers;
 
 public class HighPriorityModifier : GameModifier
 {

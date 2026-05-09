@@ -1,10 +1,10 @@
-﻿using MiraAPI.Example.Roles;
+﻿using Nebuline.Roles;
 using MiraAPI.GameOptions;
 using MiraAPI.GameOptions.Attributes;
 using MiraAPI.GameOptions.OptionTypes;
 using MiraAPI.Utilities;
 
-namespace MiraAPI.Example.Options.Roles;
+namespace Nebuline.Options.Roles;
 
 public class TeleporterOptions : AbstractOptionGroup<TeleporterRole>
 {

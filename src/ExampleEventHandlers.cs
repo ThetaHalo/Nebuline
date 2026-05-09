@@ -7,12 +7,12 @@ using MiraAPI.Events.Vanilla.Map;
 using MiraAPI.Events.Vanilla.Meeting;
 using MiraAPI.Events.Vanilla.Meeting.Voting;
 using MiraAPI.Events.Vanilla.Player;
-using MiraAPI.Example.Buttons.Freezer;
-using MiraAPI.Example.Roles;
+using Nebuline.Buttons.Freezer;
+using Nebuline.Roles;
 using MiraAPI.Utilities;
 using Reactor.Utilities;
 
-namespace MiraAPI.Example;
+namespace Nebuline;
 
 public static class ExampleEventHandlers
 {

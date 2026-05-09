@@ -1,6 +1,6 @@
-﻿using MiraAPI.Example.Modifiers.Freezer;
-using MiraAPI.Example.Options.Roles;
-using MiraAPI.Example.Roles;
+﻿using Nebuline.Modifiers.Freezer;
+using Nebuline.Options.Roles;
+using Nebuline.Roles;
 using MiraAPI.GameOptions;
 using MiraAPI.Hud;
 using MiraAPI.Keybinds;
@@ -9,7 +9,7 @@ using MiraAPI.Utilities;
 using MiraAPI.Utilities.Assets;
 using UnityEngine;
 
-namespace MiraAPI.Example.Buttons.Freezer;
+namespace Nebuline.Buttons.Freezer;
 
 public class FreezeButton : CustomActionButton<PlayerControl>
 {

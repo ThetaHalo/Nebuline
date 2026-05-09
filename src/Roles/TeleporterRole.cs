@@ -1,7 +1,7 @@
 ﻿using MiraAPI.Roles;
 using UnityEngine;
 
-namespace MiraAPI.Example.Roles;
+namespace Nebuline.Roles;
 
 public class TeleporterRole : CrewmateRole, ICustomRole
 {
