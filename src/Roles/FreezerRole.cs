@@ -13,7 +13,7 @@ public class FreezerRole : ImpostorRole, ICustomRole
 
     public CustomRoleConfiguration Configuration => new CustomRoleConfiguration(this)
     {
-        OptionsScreenshot = ExampleAssets.Banner,
+        OptionsScreenshot = NebulineAssets.Banner,
         MaxRoleCount = 2,
     };
 }

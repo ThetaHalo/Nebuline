@@ -19,7 +19,7 @@ public class TeleportButton : CustomActionButton
     public override float EffectDuration => OptionGroupSingleton<TeleporterOptions>.Instance.TeleportDuration;
     public override int MaxUses => 2;
 
-    public override LoadableAsset<Sprite> Sprite => ExampleAssets.TeleportButton;
+    public override LoadableAsset<Sprite> Sprite => NebulineAssets.TeleportButton;
     public override Color TextOutlineColor => new Color32(221, 176, 152, 255);
     public static bool IsZoom { get; private set; }
     public override MiraKeybind? Keybind => MiraGlobalKeybinds.PrimaryAbility;

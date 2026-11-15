@@ -11,7 +11,7 @@ public class ThinkButton : CustomActionButton
     public override float EffectDuration => 10f;
     public override int MaxUses => 1;
     public override ButtonUsesMode UsesMode => ButtonUsesMode.PerRound;
-    public override LoadableAsset<Sprite> Sprite => ExampleAssets.ExampleButton;
+    public override LoadableAsset<Sprite> Sprite => NebulineAssets.ExampleButton;
     protected override void OnClick()
     {
         // This button does absolutely nothing besides changing its text

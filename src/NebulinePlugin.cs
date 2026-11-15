@@ -34,6 +34,7 @@ public partial class NebulinePlugin : BasePlugin, IMiraPlugin
         ExampleEventHandlers.Initialize();
         Harmony.PatchAll();
         ReactorCredits.Register(Name, Version, IsDebug, ReactorCredits.AlwaysShow);
+        
         Logger<NebulinePlugin>.Info("Welcome to Nebuline!");
     }
 }

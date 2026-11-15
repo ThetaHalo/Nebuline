@@ -18,7 +18,7 @@ public class FreezeButton : CustomActionButton<PlayerControl>
     public override float Cooldown => OptionGroupSingleton<FreezerRoleSettings>.Instance.FreezeDuration;
     public override bool PauseTimerInVent => true;
 
-    public override LoadableAsset<Sprite> Sprite => ExampleAssets.ExampleButton;
+    public override LoadableAsset<Sprite> Sprite => NebulineAssets.ExampleButton;
     public override MiraKeybind? Keybind => MiraGlobalKeybinds.PrimaryAbility;
 
     protected override void OnClick()

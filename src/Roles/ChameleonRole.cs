@@ -19,7 +19,7 @@ public class ChameloenRole : CrewmateRole, ICustomRole
 
     public CustomRoleConfiguration Configuration => new(this)
     {
-        OptionsScreenshot = ExampleAssets.Banner,
+        OptionsScreenshot = NebulineAssets.Banner,
         IntroSound = CustomRoleUtils.GetIntroSound(RoleTypes.Shapeshifter),
     };
 

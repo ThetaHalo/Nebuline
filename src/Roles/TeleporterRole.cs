@@ -13,7 +13,7 @@ public class TeleporterRole : CrewmateRole, ICustomRole
 
     public CustomRoleConfiguration Configuration => new CustomRoleConfiguration(this)
     {
-        OptionsScreenshot = ExampleAssets.Banner,
+        OptionsScreenshot = NebulineAssets.Banner,
         CanModifyChance = false,
         DefaultChance = 73,
         DefaultRoleCount = 4,
